@@ -24,9 +24,11 @@
 //
 
 const LastWord = (str) => {
-    // write your code here
-    let ans = str.slice('');
-    return lastIndexOf (ans)
+    // write your code hereconst LastWord = (str) => {
+        const lastSpace=str.lastIndexOf(" ");
+        const ans = str.slice(lastSpace+1);
+        return ans;
+     
 }
 // -------------------------------------------------------------------------------------------------------
 
